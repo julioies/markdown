@@ -1,4 +1,4 @@
-# TALLER MARKDOWN
+# TALLER MARKDOWN PARA GITHUB
 
 ## ¿QUÉ ES MARKDOWN?
 
@@ -237,41 +237,52 @@ public class EstructuraRepetitivaFor1 {
 
 
 
-
-
 ## TAREAS PENDIENTES   
 
 #### Sintaxis Github:
 
-- [x] Tarea completada
-- [ ] Tarea pendiente
+- [x] Tarea completada :tada:
+- [ ] Tarea pendiente  
 
-- [x] #739
-- [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] Add delight to the experience when all tasks are complete :tada:
-
-- [ ] \(Optional) Open a followup issue
+- [x] Base Datos
+- [ ] Diagrama Casos Uso
 
 
 #### Sintaxis Markdown:
 
 ```markdown 
-- [x] Tarea completada
-- [ ] Tarea pendiente
+- [x] Tarea completada :tada:
+- [ ] Tarea pendiente  
 
-- [x] #739
-- [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] Add delight to the experience when all tasks are complete :tada:
-
-- [ ] \(Optional) Open a followup issue
+- [x] Base Datos
+- [ ] Diagrama Casos Uso
 ```
 
 
-:+1: This PR looks great - it's ready to merge! :shipit:
+## EMOJIS   
+
+#### Sintaxis Github:
+
+:+1:  :shipit:
+
+:smile: :rocket: :+1: :octocat:
+
+
+#### Sintaxis Markdown:
+
+```markdown 
+
+:+1:  :shipit:
+
+:smile: :rocket: :+1: :octocat:
+
+```
+[Más Emojis](https://github.com/ikatyang/emoji-cheat-sheet)
 
 
 
-## CÓDIGO
+
+## ALERTAS  
 
 #### Sintaxis Github:
 > [!NOTE]  
@@ -293,11 +304,26 @@ public class EstructuraRepetitivaFor1 {
 
 ```markdown 
 
+> [!NOTE]  
+> Destaca la información que los usuarios deben tener en cuenta, incluso al hojear. 
+
+> [!TIP]
+> Información opcional para ayudar a un usuario a tener más éxito
+
+> [!IMPORTANT]  
+> Información crucial necesaria para que los usuarios tengan éxito
+
+> [!WARNING]  
+> Contenido crítico que exige la atención inmediata del usuario debido a los riesgos potenciales.
+
+> [!CAUTION]
+> Consecuencias potenciales negativas de una acción.
 
 
 ```
 
 
-BIBLIOGRAFÍA
+## BIBLIOGRAFÍA
 
-https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
+[Más INFO](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
