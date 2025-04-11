@@ -239,7 +239,7 @@ public class EstructuraRepetitivaFor1 {
 
 
 
-## CÓDIGO
+## TAREAS PENDIENTES   
 
 #### Sintaxis Github:
 
@@ -247,29 +247,38 @@ public class EstructuraRepetitivaFor1 {
 #### Sintaxis Markdown:
 
 ```markdown 
+- [x] Tarea completada
+- [ ] Tarea pendiente
 
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
 
-
+- [ ] \(Optional) Open a followup issue
 ```
+
+
+:+1: This PR looks great - it's ready to merge! :shipit:
+
 
 
 ## CÓDIGO
 
 #### Sintaxis Github:
 > [!NOTE]  
-> Highlights information that users should take into account, even when skimming.
+> Destaca la información que los usuarios deben tener en cuenta, incluso al hojear. 
 
 > [!TIP]
-> Optional information to help a user be more successful.
+> Información opcional para ayudar a un usuario a tener más éxito
 
 > [!IMPORTANT]  
-> Crucial information necessary for users to succeed.
+> Información crucial necesaria para que los usuarios tengan éxito
 
 > [!WARNING]  
-> Critical content demanding immediate user attention due to potential risks.
+> Contenido crítico que exige la atención inmediata del usuario debido a los riesgos potenciales.
 
 > [!CAUTION]
-> Negative potential consequences of an action.
+> Consecuencias potenciales negativas de una acción.
 
 #### Sintaxis Markdown:
 
