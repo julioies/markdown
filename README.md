@@ -135,21 +135,30 @@
 
 ## IMÁGENES
 
+> [!IMPORTANT]  
+> En Markdown puro, no se puede cambiar el tamaño de las imágenes directamente. Sin embargo, GitHub permite usar HTML dentro de archivos .md, así que puedes usar etiquetas HTML para controlar el tamaño de las imágenes.
+
 #### Sintaxis Github:
 
-![SuperMario](./images/supermario.png){ align=center, width="200" }
+![SuperMario](./images/supermario.png)
 
-![Sonic](https://static.wikia.nocookie.net/sonic/images/6/6d/Sonic_67.png){ align=center, width="150" }
+![Sonic](https://static.wikia.nocookie.net/sonic/images/6/6d/Sonic_67.png)
+
+<img src="https://static.wikia.nocookie.net/sonic/images/6/6d/Sonic_67.png" alt="Imagen" width="200"/>
 
 #### Sintaxis Markdown:
 
 ```markdown 
-![SuperMario](./images/supermario.png) { align=center, width="150" }
+<!-- MARKDOWN PURO -->
+![SuperMario](./images/supermario.png) 
 
 <!-- enlace de una imagen externa -->
-![Sonic](https://static.wikia.nocookie.net/sonic/images/6/6d/Sonic_67.png){ align=center, width="200" }
-```
+![Sonic](https://static.wikia.nocookie.net/sonic/images/6/6d/Sonic_67.png)
 
+<!-- usar HTML -->
+<img src="https://static.wikia.nocookie.net/sonic/images/6/6d/Sonic_67.png" alt="Imagen" width="200"/>
+
+```
 
 
 ## TABLAS
@@ -181,6 +190,8 @@
 
 
 ## BLOQUES DE CÓDIGO
+
+Al inicio del bloque se puede indicar de forma opcional cuál es el tipo de contenido que contiene el bloque para resaltar las palabras reservadas cuando se renderice. Por ejemplo: bash, python, yaml, json, html, javascript, etc.
 
 #### Sintaxis Github:
 
@@ -230,7 +241,6 @@ public class EstructuraRepetitivaFor1 {
         }
         let cadena = vec.toString();
         document.write(cadena);
-
 
 ```
 
@@ -319,7 +329,6 @@ public class EstructuraRepetitivaFor1 {
 > [!CAUTION]
 > Consecuencias potenciales negativas de una acción.
 
-
 ```
 
 
@@ -327,3 +336,6 @@ public class EstructuraRepetitivaFor1 {
 
 
 [Más INFO](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
+
+
