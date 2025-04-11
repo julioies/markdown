@@ -243,6 +243,15 @@ public class EstructuraRepetitivaFor1 {
 
 #### Sintaxis Github:
 
+- [x] Tarea completada
+- [ ] Tarea pendiente
+
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
+
+- [ ] \(Optional) Open a followup issue
+
 
 #### Sintaxis Markdown:
 
